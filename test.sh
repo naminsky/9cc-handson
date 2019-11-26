@@ -19,5 +19,8 @@ try() {
 try 0 0
 try 42 42
 try 41 " 12 + 34 - 5 "
+# try 1 "a + 1"
+# try 1 "1 - + 1"
+# try 1 "1 1 + 2"
 
 echo OK
